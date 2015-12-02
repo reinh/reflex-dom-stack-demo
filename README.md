@@ -33,3 +33,10 @@ were carefully chosen to (1) actually build and (2) use the recent "improved
 base" updates to GHCJS along with the most recent `reflex-dom` branch that
 supports them, the `ghcjs-improved-base-2` branch. Use other versions at your
 own risk.
+
+## Thanks
+
+Thanks to everyone involved in making GHCJS and Reflex, and especially to luigy
+on Freenode for gracious support in #reflex-frp and the
+[try-stack-reflex](https://github.com/luigy/try-stack-reflex) repository, on
+which this one is largely based.
