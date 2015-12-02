@@ -1,0 +1,27 @@
+name:                reflex-dom-stack-demo
+version:             0.1.0.0
+synopsis:            Initial project template from stack
+description:         Please see README.md
+homepage:            http://github.com/reinh/reflex-dom-stack-demo#readme
+license:             MIT
+license-file:        LICENSE
+author:              Rein Henrichs
+maintainer:          rein.henrichs@gmail.com
+copyright:           Copyright Rein Henrichs 2015
+category:            Other
+build-type:          Simple
+-- extra-source-files:
+cabal-version:       >=1.10
+
+executable reflex-dom-stack-demo
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , reflex
+                     , reflex-dom
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/reinh/reflex-dom-stack-demo
