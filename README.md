@@ -1,5 +1,8 @@
 # Getting Started with Reflex Dom and Stack
 
+An example [Reflex Dom](https://hackage.haskell.org/package/reflex-dom) project
+that builds with [Stack](https://hackage.haskell.org/package/reflex-dom).
+
 ## Install Stack
 
 1. Install Stack on OS X with `brew install haskell-stack`. Instructions for other
