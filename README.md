@@ -14,6 +14,8 @@ that builds with [Stack](https://hackage.haskell.org/package/reflex-dom).
 
 3. Upgrade Stack with `stack upgrade`. You will need to use version 1.8 or higher because the `stack.yaml` file includes fields that are not recognized in previous versions.
 
+4. Clear your path cache (`hash -d stack` on bash, `rehash` on zsh) or launch a new terminal session so that the new executable will be found.
+
 ## Build the Project
 
     stack setup # first time only
