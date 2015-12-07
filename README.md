@@ -5,16 +5,8 @@ that builds with [Stack](https://hackage.haskell.org/package/reflex-dom).
 
 ## Install Stack
 
-1. Install Stack on OS X with `brew install haskell-stack`. Instructions for other
-   platforms are available in the
-   [Stack documentation](http://docs.haskellstack.org/en/stable/README.html).
-
-2. Ensure that `$HOME/.local/bin/` is in your `$PATH`. For bash, add
-   `PATH=$HOME/.local/bin:$PATH` to your `~/.bashrc`.
-
-3. Upgrade Stack with `stack upgrade`. You will need to use version 1.8 or higher because the `stack.yaml` file includes fields that are not recognized in previous versions.
-
-4. Clear your path cache (`hash -d stack` on bash, `rehash` on zsh) or launch a new terminal session so that the new executable will be found.
+Install Stack on OS X with `brew install haskell-stack`. Instructions for other platforms are available in the
+   [Stack documentation](http://docs.haskellstack.org/en/stable/README.html). Ensure that Stack is at least version 1.8.
 
 ## Build the Project
 
