@@ -12,8 +12,7 @@ that builds with [Stack](https://hackage.haskell.org/package/reflex-dom).
 2. Ensure that `$HOME/.local/bin/` is in your `$PATH`. For bash, add
    `PATH=$HOME/.local/bin:$PATH` to your `~/.bashrc`.
 
-3. Upgrade Stack with `stack upgrade --git`. You will need to use Stack
-   built from git with GHCJS.
+3. Upgrade Stack with `stack upgrade`. You will need to use version 1.8 or higher because the `stack.yaml` file includes fields that are not recognized in previous versions.
 
 ## Build the Project
 
