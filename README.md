@@ -7,6 +7,14 @@ that builds with [Stack](https://hackage.haskell.org/package/reflex-dom).
 
 Install Stack on OS X with `brew install haskell-stack`. Instructions for other platforms are available in the
    [Stack documentation](http://docs.haskellstack.org/en/stable/README.html). Ensure that Stack is at least version 1.8.
+   
+## Install Executable Dependencies
+
+Dependencies on executables aren't managed by stack or cabal, so we need to install them ourselves.
+
+    stack install happy
+    
+**IMPORTANT:** Ensure that `$HOME/.local/bin` is in your `PATH`.
 
 ## Build the Project
 
