@@ -35,6 +35,15 @@ base" updates to GHCJS along with the most recent `reflex-dom` branch that
 supports them, the `ghcjs-improved-base-2` branch. Use other versions at your
 own risk.
 
+## Troubleshooting
+
+    /usr/bin/ld: cannot find -ltinfo
+
+Apparently, stack sometimes tries to link to the terminfo library... for... reasons? You can fix this by installing ncurses developer libraries. On Debian based systems (like Ubuntu), the remedy is:
+
+    sudo apt-get install libncurses5-dev
+
+
 ## Thanks
 
 Thanks to everyone involved in making GHCJS and Reflex, and especially to luigy
